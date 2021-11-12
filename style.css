@@ -1,0 +1,121 @@
+body{
+    height: 100vh;
+    font-family: 'Spartan';
+}
+.upperContainer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bottomContainer{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 2%;
+    padding-left: 9%;
+    padding-right: 9%; 
+}
+
+.reviewContainer{
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color:#F7F2F7;
+    border-radius:8px ;
+    box-sizing: border-box; 
+}
+.reviewContainer img{
+    height: 16.55px;
+    margin-right: 2rem;
+}
+
+.two{
+    margin-left: 3rem;
+}
+.three{
+    margin-left: 6rem;
+}
+
+
+.rateWrapper{
+    height: 100%;
+    width: 50%;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+     flex-direction: column;
+     justify-content: center;
+     padding-top: 3rem;
+     color: #512051;
+
+}
+
+.textWrapper{
+    width: 50%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;    
+    box-sizing: border-box;
+    justify-content: space-around;
+
+}
+
+.subtext{
+    width: 70%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 15px;
+    color: #927B91;
+}
+
+.textWrapper h1{
+    font-size: 40px;
+    width: 80%;
+    color:#512051;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+.title img{
+    margin-right: 1rem;
+}
+.subText{
+    font-size: 13px;
+}
+.subText h5{
+    font-weight: bold;
+    color: honeydew;
+}
+.subText p{
+    color: #ee69a4;
+}
+.card{
+    height: 80%;
+    width: 30%;
+    background-color:#512051;
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #e9e1e9;
+}
+.B{
+    margin-top: 1.8rem;
+}
+
+.C{
+    margin-top: 3.8rem;
+}
+
